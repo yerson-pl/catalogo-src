@@ -84,14 +84,14 @@ DATABASESx = {
     }
 }
 
-DATABASESx = {
+DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgreesql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mydatabase',
         'USER': 'mydatabaseuser',
         'PASSWORD': 'mypassword',
         'HOST': '127.0.0.1',
-        'Port': '5432'
+        'PORT': '5432',
     }
 }
 
